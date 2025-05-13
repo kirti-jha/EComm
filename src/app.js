@@ -30,7 +30,7 @@ app.use(express.urlencoded({ extended: true }));
 
 //Cors
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    origin: ['https://jade-jalebi-52674b.netlify.app/'],
     methods: ['GET', 'POST', 'PATCH', 'DELETE'],
     credentials: true,
 }));
